@@ -1,0 +1,98 @@
+body {
+    background-color: #232323;
+    color: #fff;
+}
+
+header{
+    color: #232323;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0.5rem 3rem #fff;
+}
+
+main {
+    padding-top: 30px;
+}
+
+ul {
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.caixaglobal {
+    max-width: 1200px;
+    width: 80%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+.chamar {
+    border: solid 1px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: aqua;
+    border-color: blue;
+}
+
+.transformheader {
+    color: #232323;
+    padding: 20px;
+    background: #fff;
+}
+
+.topobanner {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardsinicial {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.secaodireita {
+    background-color: bisque;
+    height: 50px;
+}
+
+.secao02 {
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerdasec02 {
+    color: #232323;
+    border: solid 2px;
+    border-radius: 8px;
+    background-color: beige;
+}
+
+.direitasec02 {
+    color: #232323;
+    background-color: aqua;
+}
+
+.linhasecao02 {
+    margin: 10px;
+}
+
+.stylenome {
+    color: aquamarine;
+}
