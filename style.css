@@ -27,6 +27,22 @@ li {
     margin: 20px;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.pushbig {
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.pushbig:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
 .caixaglobal {
     max-width: 1200px;
     width: 80%;
