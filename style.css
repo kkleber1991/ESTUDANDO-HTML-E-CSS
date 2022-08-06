@@ -12,6 +12,7 @@ header{
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0.5rem 3rem #000;
+    height: 78px;
 }
 
 main {
@@ -27,6 +28,11 @@ li {
     margin: 20px;
 }
 
+li:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
 .amenu {
     color: #fca311;
     font-size: 18px;
@@ -38,6 +44,9 @@ li {
 .amenu:hover {
     color: #14213d;
     transition: 0.5s all;
+    border-bottom: solid 3px #14213d;
+    border-radius: 3px;
+    transition: border-bottom 0s;
 }
 
 .menu {
@@ -69,6 +78,7 @@ li {
 }
 
 .chamar {
+    color: #14213d;
     border: solid 1px #14213d;
     border-radius: 8px;
     font-size: 18px;
@@ -79,6 +89,7 @@ li {
 }
 
 .chamar:hover {
+    color: #fca311;
     border: solid 1px;
     border-radius: 8px;
     padding: 8px;
