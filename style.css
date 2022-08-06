@@ -1,6 +1,7 @@
 body {
     background-color: #e5e5e5;
     color: #fff;
+    margin: 0px;
 }
 
 header{
@@ -95,7 +96,7 @@ li:hover {
     padding: 8px;
     background-color: #14213d;
     border-color: #fca311;
-    transform: scale(1.3);
+    transform: scale(1.2);
     transition: 0.5s;
 }
 
